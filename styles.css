@@ -1,0 +1,162 @@
+body {
+    background-color: #1f2937;
+}
+
+.flex-container {
+    background-color: #1f2937;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head {
+    text-align: center;
+    width: 700px;
+    color:white;
+}
+
+.links {
+    color:wheat;
+    text-align: center;
+    width: 800px;
+    color:white;
+}
+
+a {
+    padding:5px;
+}
+
+.primer-cuerpo {
+    background-color: #1f2937;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.c1 {
+    height: 200px;
+    width: 600px;
+    text-align: left;
+    margin: 80px;
+
+}
+
+.c2 {
+    width: 50%;
+    text-align: center;
+}
+
+
+#primera-imagen{
+    border: none;
+    padding: 50px;
+    height: 300px;
+    width: 400px;
+}
+
+.segundo-cuerpo {
+    background-color: white;
+}
+
+.flex-segundo-cuerpo {
+    background-color: white;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 100%;
+    border: 1px solid black;
+} 
+
+.c3 {
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.c4 {
+    background-color:white;
+    margin: 5px;
+    padding: 40px;
+}
+
+.contenido {
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: center;
+    height: 150px;
+
+}
+
+.c5 {
+    padding: 10px;
+    width: 40%;
+    font-style: italic;
+
+}
+
+.c6 {
+    padding: 40px;
+}
+
+.contacto {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    height: 150px;
+}
+
+
+.c7 {
+    margin-top: 15px;
+    padding: 10px;
+    height: 100px;
+    width: 40%;
+    background-color: #3882f6;
+    padding-left: 60px;
+
+}
+
+.c8 {
+    margin-top: 15px;
+    padding: 50px;
+    height: 20px;
+    text-align: center;
+    background-color: #3882f6;
+}
+
+button {
+    background-color: #3882f6;
+    border: 2px solid#3882f6;
+}
+
+footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    height: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+#segundo-boton{
+    border: 2px solid white;
+}
