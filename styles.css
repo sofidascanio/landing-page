@@ -1,8 +1,10 @@
 body {
     background-color: #1f2937;
+    font-family: 'Roboto', sans-serif;
 }
 
-.flex-container {
+
+.flex-header {
     background-color: #1f2937;
     height: 80px;
     width: 100%;
@@ -16,6 +18,7 @@ body {
     text-align: center;
     width: 700px;
     color:white;
+    font-size: 24px;
 }
 
 .links {
@@ -23,6 +26,7 @@ body {
     text-align: center;
     width: 800px;
     color:white;
+    font-size: 18px;
 }
 
 a {
@@ -45,7 +49,16 @@ a {
     width: 600px;
     text-align: left;
     margin: 80px;
+    font-size: 24px;
 
+}
+
+#primer_head {
+    
+}
+
+#parrafo {
+    font-size: 20px;
 }
 
 .c2 {
@@ -55,10 +68,10 @@ a {
 
 
 #primera-imagen{
-    border: none;
-    padding: 50px;
+    margin-top:50px;
     height: 300px;
-    width: 400px;
+    width: 700px;
+    border: none;
 }
 
 .segundo-cuerpo {
@@ -68,40 +81,44 @@ a {
 .flex-segundo-cuerpo {
     background-color: white;
     display: flex;
-    height: 300px;
+    height: 400px;
     width: 100%;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
 }
 
 img {
+    border: 3px solid #3882f6;
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: 150px;
     width: 100%;
-    border: 1px solid black;
+    border-radius: 25px;
 } 
 
 .c3 {
     background-color: white;
     text-align: center;
     padding-top: 10px;
+    font-size: 24px;
+    color: #1f2937;
 
 }
 
 .c4 {
     background-color:white;
-    margin: 5px;
-    padding: 40px;
+    padding:20px;
 }
 
 .contenido {
     display: flex;
     background-color: #e5e7eb;
     justify-content: center;
-    height: 150px;
+    height: 300px;
+    align-items: center;
 
 }
 
@@ -109,43 +126,63 @@ img {
     padding: 10px;
     width: 40%;
     font-style: italic;
+    font-size: 24px;
+    color: #1f2937;
 
 }
 
 .c6 {
     padding: 40px;
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
 }
 
 .contacto {
     display: flex;
     background-color: white;
     justify-content: center;
-    height: 150px;
+    height: 300px;
+    margin-bottom: 30px;
+    align-items: center;
+    color:white;
 }
 
 
 .c7 {
-    margin-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 10px;
-    height: 100px;
+    height: 130px;
     width: 40%;
     background-color: #3882f6;
     padding-left: 60px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 
 }
 
 .c8 {
-    margin-top: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     padding: 50px;
-    height: 20px;
+    height: 50px;
     text-align: center;
     background-color: #3882f6;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius:25px;
+    display:grid;
 }
 
 button {
     background-color: #3882f6;
     border: 2px solid#3882f6;
-}
+    border-radius: 25px;
+    height: 50px;
+    width: 100px;
+    color:white;
+} 
 
 footer {
     display: flex;
@@ -155,6 +192,8 @@ footer {
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+    margin-top: 30px;
+    color:white;
 }
 
 #segundo-boton{
